@@ -15,6 +15,7 @@
 		D273D7DC1F9DE9790040D328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D273D7DA1F9DE9790040D328 /* LaunchScreen.storyboard */; };
 		D273D7E71F9DE9790040D328 /* VirtualImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D273D7E61F9DE9790040D328 /* VirtualImageTests.m */; };
 		D273D7F21F9DE9790040D328 /* VirtualImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D273D7F11F9DE9790040D328 /* VirtualImageUITests.m */; };
+		D273D8001F9DEA9B0040D328 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D273D7FF1F9DEA9B0040D328 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D273D7ED1F9DE9790040D328 /* VirtualImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D273D7F11F9DE9790040D328 /* VirtualImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualImageUITests.m; sourceTree = "<group>"; };
 		D273D7F31F9DE9790040D328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D273D7FF1F9DEA9B0040D328 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +103,9 @@
 		D273D7CB1F9DE9790040D328 /* VirtualImage */ = {
 			isa = PBXGroup;
 			children = (
-				D273D7CF1F9DE9790040D328 /* AppDelegate.h */,
-				D273D7D01F9DE9790040D328 /* AppDelegate.m */,
 				D273D7D21F9DE9790040D328 /* ViewController.h */,
 				D273D7D31F9DE9790040D328 /* ViewController.m */,
-				D273D7D51F9DE9790040D328 /* Main.storyboard */,
-				D273D7D81F9DE9790040D328 /* Assets.xcassets */,
-				D273D7DA1F9DE9790040D328 /* LaunchScreen.storyboard */,
-				D273D7DD1F9DE9790040D328 /* Info.plist */,
+				D273D7FF1F9DEA9B0040D328 /* 1.png */,
 				D273D7CC1F9DE9790040D328 /* Supporting Files */,
 			);
 			path = VirtualImage;
@@ -117,6 +114,12 @@
 		D273D7CC1F9DE9790040D328 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D273D7CF1F9DE9790040D328 /* AppDelegate.h */,
+				D273D7D01F9DE9790040D328 /* AppDelegate.m */,
+				D273D7D51F9DE9790040D328 /* Main.storyboard */,
+				D273D7D81F9DE9790040D328 /* Assets.xcassets */,
+				D273D7DA1F9DE9790040D328 /* LaunchScreen.storyboard */,
+				D273D7DD1F9DE9790040D328 /* Info.plist */,
 				D273D7CD1F9DE9790040D328 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D273D8001F9DEA9B0040D328 /* 1.png in Resources */,
 				D273D7DC1F9DE9790040D328 /* LaunchScreen.storyboard in Resources */,
 				D273D7D91F9DE9790040D328 /* Assets.xcassets in Resources */,
 				D273D7D71F9DE9790040D328 /* Main.storyboard in Resources */,
