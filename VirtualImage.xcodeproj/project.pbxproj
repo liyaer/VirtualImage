@@ -16,6 +16,8 @@
 		D273D7E71F9DE9790040D328 /* VirtualImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D273D7E61F9DE9790040D328 /* VirtualImageTests.m */; };
 		D273D7F21F9DE9790040D328 /* VirtualImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D273D7F11F9DE9790040D328 /* VirtualImageUITests.m */; };
 		D273D8001F9DEA9B0040D328 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D273D7FF1F9DEA9B0040D328 /* 1.png */; };
+		D2B496A51F9ECC7500BC9465 /* UIImageView+FrostedGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B496A41F9ECC7500BC9465 /* UIImageView+FrostedGlass.m */; };
+		D2B496A81F9ECEDF00BC9465 /* UIImage+BlurImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B496A71F9ECEDF00BC9465 /* UIImage+BlurImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D273D7F11F9DE9790040D328 /* VirtualImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualImageUITests.m; sourceTree = "<group>"; };
 		D273D7F31F9DE9790040D328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D273D7FF1F9DEA9B0040D328 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D2B496A31F9ECC7500BC9465 /* UIImageView+FrostedGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FrostedGlass.h"; sourceTree = "<group>"; };
+		D2B496A41F9ECC7500BC9465 /* UIImageView+FrostedGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FrostedGlass.m"; sourceTree = "<group>"; };
+		D2B496A61F9ECEDF00BC9465 /* UIImage+BlurImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurImage.h"; sourceTree = "<group>"; };
+		D2B496A71F9ECEDF00BC9465 /* UIImage+BlurImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlurImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 			children = (
 				D273D7D21F9DE9790040D328 /* ViewController.h */,
 				D273D7D31F9DE9790040D328 /* ViewController.m */,
+				D2B496A31F9ECC7500BC9465 /* UIImageView+FrostedGlass.h */,
+				D2B496A41F9ECC7500BC9465 /* UIImageView+FrostedGlass.m */,
+				D2B496A61F9ECEDF00BC9465 /* UIImage+BlurImage.h */,
+				D2B496A71F9ECEDF00BC9465 /* UIImage+BlurImage.m */,
 				D273D7FF1F9DEA9B0040D328 /* 1.png */,
 				D273D7CC1F9DE9790040D328 /* Supporting Files */,
 			);
@@ -278,8 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D273D7D41F9DE9790040D328 /* ViewController.m in Sources */,
+				D2B496A51F9ECC7500BC9465 /* UIImageView+FrostedGlass.m in Sources */,
 				D273D7D11F9DE9790040D328 /* AppDelegate.m in Sources */,
 				D273D7CE1F9DE9790040D328 /* main.m in Sources */,
+				D2B496A81F9ECEDF00BC9465 /* UIImage+BlurImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +523,7 @@
 				D273D7F81F9DE9790040D328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D273D7F91F9DE9790040D328 /* Build configuration list for PBXNativeTarget "VirtualImageTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +532,7 @@
 				D273D7FB1F9DE9790040D328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D273D7FC1F9DE9790040D328 /* Build configuration list for PBXNativeTarget "VirtualImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +541,7 @@
 				D273D7FE1F9DE9790040D328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
